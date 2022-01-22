@@ -1,0 +1,7 @@
+.glass-bg {
+  min-height: 100vh;
+  background: linear-gradient(to right top, #c4e6fa, #4aaeff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
