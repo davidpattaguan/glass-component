@@ -3,15 +3,15 @@ import React from "react";
 const Socials = () => {
   return (
     <div className="socials-container">
-      <div className="Social">
+      <div className="social">
         <img src="" alt="" />
         <h2>Facebook</h2>
       </div>
-      <div className="Social">
+      <div className="social">
         <img src="" alt="" />
         <h2>Twitter</h2>
       </div>
-      <div className="Social">
+      <div className="social">
         <img src="" alt="" />
         <h2>Instagram</h2>
       </div>

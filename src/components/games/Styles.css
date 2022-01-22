@@ -1,3 +1,25 @@
-.games {
-  flex: 2;
+.notemate {
+  flex: 3;
+  margin: 2rem;
+}
+
+.notes-list {
+  margin-top: 2rem;
+}
+
+.note-item {
+  padding: 3rem 2rem;
+  width: 100%;
+
+  background-color: aliceblue;
+  margin: 1.5rem 0rem;
+  border-radius: 20px;
+  box-shadow: -1px 14px 12px -12px rgba(75, 75, 75, 0.54);
+  -webkit-box-shadow: -1px 14px 12px -12px rgba(172, 172, 172, 0.54);
+  -moz-box-shadow: -1px 14px 12px -12px rgba(83, 83, 83, 0.54);
+}
+
+.noteheader-title {
+  margin: 0.6rem 0rem;
+  color: #4b90c5;
 }

@@ -1,13 +1,13 @@
 import React from "react";
 import Dashboard from "../dashboard/Dashboard";
-import Games from "../games/Games";
+import Notemate from "../games/Notemate";
 import "./Styles.css";
 
 const GlassComponent = () => {
   return (
     <div className="glass">
       <Dashboard />
-      <Games />
+      <Notemate />
     </div>
   );
 };

@@ -1,10 +1,13 @@
 import React from "react";
+import avatar from "../../assets/avatar.jpg";
 
 const Coffee = () => {
   return (
     <div className="coffee-container">
-      <div>But me Coffee</div>
-      <img src="" alt="" />
+      <div className="coffee-buyme">Buy me Coffee</div>
+      <div className="coffee-img-handler">
+        <img src={avatar} alt="" className="coffee-img" />
+      </div>
     </div>
   );
 };

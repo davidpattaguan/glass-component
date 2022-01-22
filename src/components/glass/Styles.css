@@ -5,8 +5,19 @@
   border-radius: 15px;
   background: linear-gradient(
     to right bottom,
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.3)
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.7)
   );
   display: flex;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+input {
+  border: none;
+  padding: 0.5rem;
+  border-radius: 10px;
 }
